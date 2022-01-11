@@ -12,24 +12,6 @@ const ListContainer = styled.ul`
    & ul {
     list-style-type: none;
   }
-   & p {
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 5px;
-    border: 1px solid gray;
-    transition: all 0.5s ease;
-    cursor: pointer;
-  }
-
-  & p:hover {
-    background-color: gray;
-  }
-  & ul p {
-    padding-left: 10px;
-    margin: 5px; 
-    border: 1px solid gray;
-    border-radius: 5px;
-  }
 `;
 
 export const List = () => {
